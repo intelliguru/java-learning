@@ -1,4 +1,4 @@
-package com.intelliguru.cache.service;
+package com.intelliguru.javastreams.foundation;
 
 
 import redis.clients.jedis.Jedis;
