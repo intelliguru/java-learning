@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d921186-1744-4bed-9e97-68e0bf829f15" name="Changes" comment="updates">
-      <change afterPath="$PROJECT_DIR$/utilities/java-streams/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/main/java/com/intelliguru/javastreams/StreamFundamentals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/java-streams/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/java-streams/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    <list default="true" id="4d921186-1744-4bed-9e97-68e0bf829f15" name="Changes" comment="Java Streams Fundamental">
+      <change afterPath="$PROJECT_DIR$/microservices/exception-handling/src/main/java/com/intelliguru/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/exception-handling/src/main/java/com/intelliguru/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/exception-handling/src/main/java/com/intelliguru/service/BeanViewer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/exception-handling/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/javalearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/javalearning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraries/cache-library/src/main/java/com/intelliguru/cache/service/CacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/cache-library/src/main/java/com/intelliguru/cache/service/CacheService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/bean-scope/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/bean-scope/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/bean-scope/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/bean-scope/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/exception-handling/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/exception-handling/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +67,59 @@
       <recent name="D:\YT\javalearning\utilities" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="BeanInspection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.intelliguru.service.BeanInspection" />
+      <module name="exception-handling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intelliguru.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanScopeDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.intelliguru.javalearning.beanscope.BeanScopeDemoApplication" />
+      <module name="bean-scope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intelliguru.javalearning.beanscope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionHandlingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.intelliguru.ExceptionHandlingApplication" />
+      <module name="exception-handling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intelliguru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.intelliguru.Main" />
+      <module name="exception-handling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intelliguru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamFundamentals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.intelliguru.javastreams.StreamFundamentals" />
       <module name="java-streams" />
@@ -77,6 +135,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BeanInspection" />
+        <item itemvalue="Application.ExceptionHandlingApplication" />
+        <item itemvalue="Application.BeanScopeDemoApplication" />
         <item itemvalue="Application.StreamFundamentals" />
       </list>
     </recent_temporary>
@@ -98,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788771813299</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Java Streams Fundamental">
+      <option name="closed" value="true" />
+      <created>1789393599385</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1789393599385</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,7 +184,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates" />
+    <MESSAGE value="Java Streams Fundamental" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Streams Fundamental" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
