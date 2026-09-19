@@ -5,18 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d921186-1744-4bed-9e97-68e0bf829f15" name="Changes" comment="Java Streams Fundamental">
-      <change afterPath="$PROJECT_DIR$/microservices/exception-handling/src/main/java/com/intelliguru/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/exception-handling/src/main/java/com/intelliguru/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/exception-handling/src/main/java/com/intelliguru/service/BeanViewer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/exception-handling/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/SpringBootCommonApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/config/PayPalConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/config/StripeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/OrderServiceV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/payment/PayPalPaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/payment/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/payment/StripePaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/util/Startup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/javalearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/javalearning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/bean-scope/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/bean-scope/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/bean-scope/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/bean-scope/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/exception-handling/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/exception-handling/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,7 +63,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/YT/javalearning/utilities&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/YT/javalearning/microservices&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -64,16 +71,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\YT\javalearning\microservices" />
       <recent name="D:\YT\javalearning\utilities" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.intelliguru.service" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.SpringBootCommonApp">
     <configuration name="BeanInspection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.intelliguru.service.BeanInspection" />
       <module name="exception-handling" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intelliguru.service.*" />
+          <option name="PATTERN" value="com.intelliguru.service.payment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,7 +110,7 @@
       <module name="exception-handling" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intelliguru.*" />
+          <option name="PATTERN" value="com.intelliguru.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,7 +123,7 @@
       <module name="exception-handling" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intelliguru.*" />
+          <option name="PATTERN" value="com.intelliguru.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,26 +131,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamFundamentals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.intelliguru.javastreams.StreamFundamentals" />
-      <module name="java-streams" />
+    <configuration name="SpringBootCommonApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.intelliguru.SpringBootCommonApp" />
+      <module name="spring-boot-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intelliguru.javastreams.*" />
+          <option name="PATTERN" value="com.intelliguru.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="javalearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="javalearning" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpringBootCommonApp" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BeanInspection" />
         <item itemvalue="Application.ExceptionHandlingApplication" />
         <item itemvalue="Application.BeanScopeDemoApplication" />
-        <item itemvalue="Application.StreamFundamentals" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +209,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updates" />
     <MESSAGE value="Java Streams Fundamental" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Streams Fundamental" />
+    <MESSAGE value="How to view beans" />
+    <option name="LAST_COMMIT_MESSAGE" value="How to view beans" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

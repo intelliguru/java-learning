@@ -17,7 +17,7 @@
         <module>file-upload-download</module>
         <module>pagination-sorting</module>
         <module>spring-boot-validations</module>
-        <module>exception-handling</module>
+<!--        <module>exception-handling</module>-->
     </modules>
 
 	<properties>

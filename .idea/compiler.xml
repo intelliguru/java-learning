@@ -7,22 +7,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="exception-handling" />
         <module name="file-upload-download (1) (com.intelliguru.javalearning.fileops)" />
         <module name="file-upload-download (2) (com.intelliguru.javalearning.paginationsorting)" />
         <module name="spring-boot-validations" />
+        <module name="spring-boot-common" />
         <module name="bean-scope" />
         <module name="java-streams" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="exception-handling" target="17" />
+      <module name="exception-handling (1)" target="17" />
+      <module name="exception-handling (2)" target="17" />
+      <module name="javalearning" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bean-scope" options="-parameters" />
       <module name="exception-handling" options="-parameters" />
+      <module name="exception-handling (1)" options="-parameters" />
+      <module name="exception-handling (2)" options="-parameters" />
       <module name="file-upload-download (1) (com.intelliguru.javalearning.fileops)" options="-parameters" />
       <module name="file-upload-download (2) (com.intelliguru.javalearning.paginationsorting)" options="-parameters" />
       <module name="javalearning" options="-parameters" />
+      <module name="spring-boot-common" options="-parameters" />
       <module name="spring-boot-validations" options="-parameters" />
     </option>
   </component>
