@@ -13,4 +13,8 @@ public class ProductService {
         throw new ProductNotFoundException("Product not found for Id = %s".formatted(id));
 
     }
+
+    public boolean isValidAge(int age) {
+        return age > 18;
+    }
 }

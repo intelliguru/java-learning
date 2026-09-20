@@ -22,7 +22,8 @@ private final ValidatorUtil validatorUtil;
     @PostMapping
     public String create(@Valid @RequestBody UserRequestDTO dto){
         // Business logic call
-        return userService.saveUserToDB(dto);
+        boolean result = userService.saveUserToDB(dto);
+        return result ? "Data Saved to DB" : "Unable to Save data to DB";
     }
 
 
