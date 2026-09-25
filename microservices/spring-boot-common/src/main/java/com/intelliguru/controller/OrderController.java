@@ -15,7 +15,7 @@ public class OrderController {
     @PostMapping("/save")
     public void saveOrder() {
 
-        orderService.createOrder();   // external call to Spring bean
+        orderService.processPayment();   // external call to Spring bean
     }
 
 }

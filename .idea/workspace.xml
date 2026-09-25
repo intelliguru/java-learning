@@ -4,25 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d921186-1744-4bed-9e97-68e0bf829f15" name="Changes" comment="Java Streams Fundamental">
-      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/config/PaymentConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/PaymentHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="4d921186-1744-4bed-9e97-68e0bf829f15" name="Changes" comment="Bean questions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/config/PayPalConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/config/PayPalConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/config/StripeConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/config/StripeConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/payment/PayPalPaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/payment/PayPalPaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/OrderServiceV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/OrderServiceV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/payment/PayPalPaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/payment/PaypalPaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/payment/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/payment/PaymentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/payment/StripePaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/payment/StripePaymentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/util/Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/util/Startup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789393599385</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Bean questions">
+      <option name="closed" value="true" />
+      <created>1790243028622</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1790243028622</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +195,8 @@
     <MESSAGE value="updates" />
     <MESSAGE value="Java Streams Fundamental" />
     <MESSAGE value="How to view beans" />
-    <option name="LAST_COMMIT_MESSAGE" value="How to view beans" />
+    <MESSAGE value="Bean questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bean questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -206,6 +205,11 @@
           <url>file://$PROJECT_DIR$/utilities/java-streams/src/main/java/com/intelliguru/javastreams/StreamFundamentals.java</url>
           <line>54</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/util/Startup.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

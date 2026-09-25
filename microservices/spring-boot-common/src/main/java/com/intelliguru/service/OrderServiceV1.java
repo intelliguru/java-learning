@@ -1,21 +1,21 @@
 package com.intelliguru.service;
 
-import org.springframework.scheduling.annotation.Async;
+import com.intelliguru.service.payment.PaymentService;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 @Service
 public class OrderServiceV1 {
-    public void processOrder() {
-        // process order...
+    private final PaymentService paymentService;
 
-        System.out.println("processOrder thread: "
-                + Thread.currentThread().getName());
+    public OrderServiceV1(
+            @Qualifier("paypalPaymentService")
+            PaymentService paymentService) {
 
-        sendEmail(); // ❌ Self-invocation
+        this.paymentService = paymentService;
     }
-    @Async
-    public void sendEmail() {
-        System.out.println("sendEmail thread: "
-                + Thread.currentThread().getName());
+
+    public void processPayment() {
+        paymentService.pay();
     }
 }
