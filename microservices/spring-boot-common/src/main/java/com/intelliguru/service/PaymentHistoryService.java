@@ -4,9 +4,9 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class PaymentHistoryService {
-    private final PaymentService paymentService;
+    private final MyPaymentService myPaymentService;
 
-    public PaymentHistoryService(PaymentService paymentService) {
-        this.paymentService = paymentService;
+    public PaymentHistoryService(MyPaymentService myPaymentService) {
+        this.myPaymentService = myPaymentService;
     }
 }

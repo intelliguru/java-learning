@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d921186-1744-4bed-9e97-68e0bf829f15" name="Changes" comment="Bean questions">
+    <list default="true" id="4d921186-1744-4bed-9e97-68e0bf829f15" name="Changes" comment="Explanation: @Qualifier &amp; @Primary Example">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/OrderServiceV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/OrderServiceV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/payment/PayPalPaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/payment/PaypalPaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/payment/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/payment/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/payment/StripePaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/payment/StripePaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/util/Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/util/Startup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/config/PaymentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/config/PaymentConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/PaymentHistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/PaymentHistoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/MyPaymentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790243028622</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Explanation: @Qualifier &amp; @Primary Example">
+      <option name="closed" value="true" />
+      <created>1790337003318</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1790337003318</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,7 +200,8 @@
     <MESSAGE value="Java Streams Fundamental" />
     <MESSAGE value="How to view beans" />
     <MESSAGE value="Bean questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bean questions" />
+    <MESSAGE value="Explanation: @Qualifier &amp; @Primary Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Explanation: @Qualifier &amp; @Primary Example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
