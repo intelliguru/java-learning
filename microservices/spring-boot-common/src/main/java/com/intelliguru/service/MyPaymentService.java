@@ -10,10 +10,10 @@ public class MyPaymentService {
 
     @PostConstruct
     public void init() {
-        System.out.println("Initializing PaymentService...");
+        //System.out.println("Initializing PaymentService...");
 
-        throw new RuntimeException(
-                "Payment configuration failed!"
-        );
+//        throw new RuntimeException(
+//                "Payment configuration failed!"
+//        );
     }
 }

@@ -1,19 +1,24 @@
 package com.intelliguru.util;
 
-import com.intelliguru.service.OrderService;
+import com.intelliguru.service.EmailService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Startup implements CommandLineRunner {
-    private final OrderService orderService;
+    private final EmailService emailService;
 
-    public Startup(OrderService orderService) {
-        this.orderService = orderService;
+    public Startup(EmailService emailService) {
+        this.emailService = emailService;
     }
 
     @Override
-    public void run(String... args)  {
-        orderService.processPayment();
+    public void run(String... args) {
+        System.out.println(
+                "Caller thread: " +
+                        Thread.currentThread().getName()
+        );
+
+        emailService.sendEmail();
     }
 }

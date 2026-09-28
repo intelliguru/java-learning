@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d921186-1744-4bed-9e97-68e0bf829f15" name="Changes" comment="Explanation: @Qualifier &amp; @Primary Example">
+    <list default="true" id="4d921186-1744-4bed-9e97-68e0bf829f15" name="Changes" comment="Explanation: Bean Error Application Startup Failure">
+      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/config/AsyncConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/config/PaymentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/config/PaymentConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/PaymentHistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/PaymentHistoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/MyPaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/SpringBootCommonApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/SpringBootCommonApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/MyPaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/MyPaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/util/Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/util/Startup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790337003318</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Explanation: Bean Error Application Startup Failure">
+      <option name="closed" value="true" />
+      <created>1790423771466</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1790423771466</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,7 +210,8 @@
     <MESSAGE value="How to view beans" />
     <MESSAGE value="Bean questions" />
     <MESSAGE value="Explanation: @Qualifier &amp; @Primary Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Explanation: @Qualifier &amp; @Primary Example" />
+    <MESSAGE value="Explanation: Bean Error Application Startup Failure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Explanation: Bean Error Application Startup Failure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -210,11 +220,6 @@
           <url>file://$PROJECT_DIR$/utilities/java-streams/src/main/java/com/intelliguru/javastreams/StreamFundamentals.java</url>
           <line>54</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/util/Startup.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
