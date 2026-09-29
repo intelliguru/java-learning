@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d921186-1744-4bed-9e97-68e0bf829f15" name="Changes" comment="Explanation: @Async vs CompletableFuture">
-      <change afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/PaymentClient.java" afterDir="false" />
+    <list default="true" id="4d921186-1744-4bed-9e97-68e0bf829f15" name="Changes" comment="Explanation: What Does @PostConstruct Actually Do in Spring Boot?">
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/main/java/com/intelliguru/javastreams/util/leetcode/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/main/java/com/intelliguru/javastreams/util/leetcode/ContainsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/main/java/com/intelliguru/javastreams/util/leetcode/MaximumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/main/java/com/intelliguru/javastreams/util/leetcode/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/main/java/com/intelliguru/javastreams/util/leetcode/ValidAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/main/java/com/intelliguru/javastreams/util/leetcode/ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/BestTimeToBuyAndSellStockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/ContainsDuplicateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/MaximumSubArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/TwoSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/ValidAnagramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/ValidPalindromeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/MyPaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-common/src/main/java/com/intelliguru/service/MyPaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/java-streams/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/java-streams/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +30,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -43,99 +55,118 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/YT/javalearning/microservices&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/YT/javalearning/microservices",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\YT\javalearning\microservices" />
       <recent name="D:\YT\javalearning\utilities" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.intelliguru.javastreams.util.leetcode" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.intelliguru.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpringBootCommonApp">
-    <configuration name="BeanInspection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.intelliguru.service.BeanInspection" />
-      <module name="exception-handling" />
+  <component name="RunManager" selected="JUnit.ValidPalindromeTest">
+    <configuration name="BestTimeToBuyAndSellStockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intelliguru.service.payment.*" />
+          <option name="PATTERN" value="com.intelliguru.javastreams.util.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.intelliguru.javastreams.util.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.intelliguru.javastreams.util.leetcode.BestTimeToBuyAndSellStockTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanScopeDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.intelliguru.javalearning.beanscope.BeanScopeDemoApplication" />
-      <module name="bean-scope" />
+    <configuration name="MaximumSubArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intelliguru.javalearning.beanscope.*" />
+          <option name="PATTERN" value="com.intelliguru.javastreams.util.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.intelliguru.javastreams.util.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.intelliguru.javastreams.util.leetcode.MaximumSubArrayTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionHandlingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.intelliguru.ExceptionHandlingApplication" />
-      <module name="exception-handling" />
+    <configuration name="MaximumSubArrayTest.shouldFindMaximumSubArrayAtBeginning" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intelliguru.config.*" />
+          <option name="PATTERN" value="com.intelliguru.javastreams.util.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.intelliguru.javastreams.util.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.intelliguru.javastreams.util.leetcode.MaximumSubArrayTest" />
+      <option name="METHOD_NAME" value="shouldFindMaximumSubArrayAtBeginning" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.intelliguru.Main" />
-      <module name="exception-handling" />
+    <configuration name="ValidAnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intelliguru.config.*" />
+          <option name="PATTERN" value="com.intelliguru.javastreams.util.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.intelliguru.javastreams.util.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.intelliguru.javastreams.util.leetcode.ValidAnagramTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootCommonApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.intelliguru.SpringBootCommonApp" />
-      <module name="spring-boot-common" />
+    <configuration name="ValidPalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intelliguru.config.*" />
+          <option name="PATTERN" value="com.intelliguru.javastreams.util.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.intelliguru.javastreams.util.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.intelliguru.javastreams.util.leetcode.ValidPalindromeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpringBootCommonApp" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BeanInspection" />
-        <item itemvalue="Application.ExceptionHandlingApplication" />
-        <item itemvalue="Application.BeanScopeDemoApplication" />
+        <item itemvalue="JUnit.ValidPalindromeTest" />
+        <item itemvalue="JUnit.MaximumSubArrayTest" />
+        <item itemvalue="JUnit.MaximumSubArrayTest.shouldFindMaximumSubArrayAtBeginning" />
+        <item itemvalue="JUnit.BestTimeToBuyAndSellStockTest" />
+        <item itemvalue="JUnit.ValidAnagramTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790679329556</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Explanation: What Does @PostConstruct Actually Do in Spring Boot?">
+      <option name="closed" value="true" />
+      <created>1790696344551</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1790696344551</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +266,8 @@
     <MESSAGE value="Explanation: Bean Error Application Startup Failure" />
     <MESSAGE value="Explanation: Why @EnableAsync required for @Async" />
     <MESSAGE value="Explanation: @Async vs CompletableFuture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Explanation: @Async vs CompletableFuture" />
+    <MESSAGE value="Explanation: What Does @PostConstruct Actually Do in Spring Boot?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Explanation: What Does @PostConstruct Actually Do in Spring Boot?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -236,6 +276,26 @@
           <url>file://$PROJECT_DIR$/utilities/java-streams/src/main/java/com/intelliguru/javastreams/StreamFundamentals.java</url>
           <line>54</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/TwoSumTest.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/TwoSumTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/ContainsDuplicateTest.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/MaximumSubArrayTest.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
