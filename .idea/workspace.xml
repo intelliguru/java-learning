@@ -82,6 +82,12 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.intelliguru.service" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.intelliiguru.javalearning.sprinbootvalidation.service" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.ValidPalindromeTest">
     <configuration name="BestTimeToBuyAndSellStockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -268,6 +274,10 @@
     <MESSAGE value="Explanation: @Async vs CompletableFuture" />
     <MESSAGE value="Explanation: What Does @PostConstruct Actually Do in Spring Boot?" />
     <option name="LAST_COMMIT_MESSAGE" value="Explanation: What Does @PostConstruct Actually Do in Spring Boot?" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2 beans of same type and ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="2 beans of same type and ..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

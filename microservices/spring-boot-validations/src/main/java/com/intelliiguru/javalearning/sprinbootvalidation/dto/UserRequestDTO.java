@@ -2,11 +2,13 @@ package com.intelliiguru.javalearning.sprinbootvalidation.dto;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.*;
+import lombok.Builder;
 import lombok.Data;
 import lombok.Getter;
 
 @Data
 @Getter
+@Builder
 public class UserRequestDTO {
     @NotBlank
     private String name;
