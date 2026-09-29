@@ -4,17 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9518a38-1461-4553-ac22-0cf07d797be4" name="Changes" comment="2 beans of same type and ...">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="4d921186-1744-4bed-9e97-68e0bf829f15" name="Changes" comment="Explanation: What Does @PostConstruct Actually Do in Spring Boot?">
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/main/java/com/intelliguru/javastreams/util/leetcode/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/main/java/com/intelliguru/javastreams/util/leetcode/ContainsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/main/java/com/intelliguru/javastreams/util/leetcode/MaximumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/main/java/com/intelliguru/javastreams/util/leetcode/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/main/java/com/intelliguru/javastreams/util/leetcode/ValidAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/main/java/com/intelliguru/javastreams/util/leetcode/ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/BestTimeToBuyAndSellStockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/ContainsDuplicateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/MaximumSubArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/TwoSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/ValidAnagramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/ValidPalindromeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-validations/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-validations/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-validations/src/main/java/com/intelliiguru/javalearning/sprinbootvalidation/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-validations/src/main/java/com/intelliiguru/javalearning/sprinbootvalidation/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-validations/src/main/java/com/intelliiguru/javalearning/sprinbootvalidation/dto/UserAddressDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-validations/src/main/java/com/intelliiguru/javalearning/sprinbootvalidation/dto/UserAddressDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-validations/src/main/java/com/intelliiguru/javalearning/sprinbootvalidation/dto/UserRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-validations/src/main/java/com/intelliiguru/javalearning/sprinbootvalidation/dto/UserRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-validations/src/main/java/com/intelliiguru/javalearning/sprinbootvalidation/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-validations/src/main/java/com/intelliiguru/javalearning/sprinbootvalidation/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/spring-boot-validations/src/main/java/com/intelliiguru/javalearning/sprinbootvalidation/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-boot-validations/src/main/java/com/intelliiguru/javalearning/sprinbootvalidation/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/java-streams/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/java-streams/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -31,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="java-streams" />
+        <entry key="$PROJECT_DIR$" value="development" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +49,7 @@
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="3Hh97XogTPj7i7GuyMTgw7PJd0C" />
+  <component name="ProjectId" id="3IzeJJntlyjpVijkjp1IRGsA8el" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
@@ -53,24 +59,28 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "ms-21",
-    "last_opened_file_path": "D:/YT/javalearning/libraries",
-    "onboarding.tips.debug.path": "D:/YT/javalearning/microservices/exception-handling/src/main/java/org/example/Main.java",
+    "last_opened_file_path": "D:/YT/javalearning/microservices",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\YT\javalearning\libraries" />
+      <recent name="D:\YT\javalearning\microservices" />
+      <recent name="D:\YT\javalearning\utilities" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\YT\javalearning\libraries\configuration-library\src\main\java\com\intelliguru\cache\service" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.intelliguru.javastreams.util.leetcode" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.intelliguru.service" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -79,68 +89,191 @@
       <recent name="com.intelliiguru.javalearning.sprinbootvalidation.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.checkIfDataSaved">
-    <configuration name="ExceptionHandlingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.intelliguru.ExceptionHandlingApplication" />
-      <module name="exception-handling" />
+  <component name="RunManager" selected="JUnit.ValidPalindromeTest">
+    <configuration name="BestTimeToBuyAndSellStockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intelliguru.*" />
+          <option name="PATTERN" value="com.intelliguru.javastreams.util.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.intelliguru.javastreams.util.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.intelliguru.javastreams.util.leetcode.BestTimeToBuyAndSellStockTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootValidationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.intelliiguru.javalearning.sprinbootvalidation.SpringBootValidationApplication" />
-      <module name="spring-boot-validations" />
+    <configuration name="MaximumSubArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intelliiguru.javalearning.sprinbootvalidation.*" />
+          <option name="PATTERN" value="com.intelliguru.javastreams.util.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.intelliguru.javastreams.util.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.intelliguru.javastreams.util.leetcode.MaximumSubArrayTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.checkIfDataSaved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-validations" />
+    <configuration name="MaximumSubArrayTest.shouldFindMaximumSubArrayAtBeginning" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intelliiguru.javalearning.sprinbootvalidation.service.*" />
+          <option name="PATTERN" value="com.intelliguru.javastreams.util.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.intelliiguru.javalearning.sprinbootvalidation.service" />
-      <option name="MAIN_CLASS_NAME" value="com.intelliiguru.javalearning.sprinbootvalidation.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="checkIfDataSaved" />
+      <option name="PACKAGE_NAME" value="com.intelliguru.javastreams.util.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.intelliguru.javastreams.util.leetcode.MaximumSubArrayTest" />
+      <option name="METHOD_NAME" value="shouldFindMaximumSubArrayAtBeginning" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidAnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intelliguru.javastreams.util.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.intelliguru.javastreams.util.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.intelliguru.javastreams.util.leetcode.ValidAnagramTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidPalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intelliguru.javastreams.util.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.intelliguru.javastreams.util.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.intelliguru.javastreams.util.leetcode.ValidPalindromeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServiceTest.checkIfDataSaved" />
-        <item itemvalue="Application.SpringBootValidationApplication" />
-        <item itemvalue="Application.ExceptionHandlingApplication" />
-        <item itemvalue="Application.ExceptionHandlingApplication" />
+        <item itemvalue="JUnit.ValidPalindromeTest" />
+        <item itemvalue="JUnit.MaximumSubArrayTest" />
+        <item itemvalue="JUnit.MaximumSubArrayTest.shouldFindMaximumSubArrayAtBeginning" />
+        <item itemvalue="JUnit.BestTimeToBuyAndSellStockTest" />
+        <item itemvalue="JUnit.ValidAnagramTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f9518a38-1461-4553-ac22-0cf07d797be4" name="Changes" comment="" />
-      <created>1786309267246</created>
+      <changelist id="4d921186-1744-4bed-9e97-68e0bf829f15" name="Changes" comment="" />
+      <created>1788771752335</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1786309267246</updated>
+      <updated>1788771752335</updated>
     </task>
+    <task id="LOCAL-00001" summary="updates">
+      <option name="closed" value="true" />
+      <created>1788771813299</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1788771813299</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Java Streams Fundamental">
+      <option name="closed" value="true" />
+      <created>1789393599385</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1789393599385</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bean questions">
+      <option name="closed" value="true" />
+      <created>1790243028622</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1790243028622</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Explanation: @Qualifier &amp; @Primary Example">
+      <option name="closed" value="true" />
+      <created>1790337003318</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1790337003318</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Explanation: Bean Error Application Startup Failure">
+      <option name="closed" value="true" />
+      <created>1790423771466</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1790423771466</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Explanation: Why @EnableAsync required for @Async">
+      <option name="closed" value="true" />
+      <created>1790596482476</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1790596482476</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Explanation: @Async vs CompletableFuture">
+      <option name="closed" value="true" />
+      <created>1790679329556</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1790679329556</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Explanation: What Does @PostConstruct Actually Do in Spring Boot?">
+      <option name="closed" value="true" />
+      <created>1790696344551</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1790696344551</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updates" />
+    <MESSAGE value="Java Streams Fundamental" />
+    <MESSAGE value="How to view beans" />
+    <MESSAGE value="Bean questions" />
+    <MESSAGE value="Explanation: @Qualifier &amp; @Primary Example" />
+    <MESSAGE value="Explanation: Bean Error Application Startup Failure" />
+    <MESSAGE value="Explanation: Why @EnableAsync required for @Async" />
+    <MESSAGE value="Explanation: @Async vs CompletableFuture" />
+    <MESSAGE value="Explanation: What Does @PostConstruct Actually Do in Spring Boot?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Explanation: What Does @PostConstruct Actually Do in Spring Boot?" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2 beans of same type and ..." />
@@ -150,19 +283,29 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/microservices/exception-handling/src/main/java/com/intelliguru/ExceptionHandlingApplication.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/utilities/java-streams/src/main/java/com/intelliguru/javastreams/StreamFundamentals.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/microservices/exception-handling/src/main/java/com/intelliguru/ExceptionHandlingApplication.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/microservices/spring-boot-validations/src/test/java/com/intelliiguru/javalearning/sprinbootvalidation/service/UserServiceTest.java</url>
-          <line>62</line>
+          <url>file://$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/TwoSumTest.java</url>
+          <line>149</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/TwoSumTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/ContainsDuplicateTest.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/utilities/java-streams/src/test/java/com/intelliguru/javastreams/util/leetcode/MaximumSubArrayTest.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

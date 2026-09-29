@@ -4,8 +4,10 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/utilities/java-streams/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices/bean-scope/pom.xml" />
         <option value="$PROJECT_DIR$/microservices/pom.xml" />
-        <option value="$PROJECT_DIR$/libraries/cache-library/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices/spring-boot-common/pom.xml" />
       </list>
     </option>
   </component>
