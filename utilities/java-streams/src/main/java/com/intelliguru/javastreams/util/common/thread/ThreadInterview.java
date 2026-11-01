@@ -6,7 +6,8 @@ public class ThreadInterview {
 
         Thread t = new Thread(() ->
                 System.out.println(
-                    "Thread Name: "+    Thread.currentThread().getName()
+                    "Thread Name: "
+                    +Thread.currentThread().getName()
                 )
         );
 

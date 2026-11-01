@@ -12,7 +12,7 @@ public class DBTransactionService {
     }
 
     @Transactional
-    public static void processPayment() {
+    public void processPayment() {
 
         repository.save(new Order("MacBook Pro"));
 
